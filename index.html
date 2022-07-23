@@ -9,7 +9,56 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
-    <script src="main.js"></script>
+    <header class="header-list">
+      <h4>My Portfolio</h4>
+      <a href="#first-block">Home</a>
+      <a href="#second-block">About me</a>
+      <a href="#third-block">Quiz</a>
+    </header>
+
+    <section id="first-block">
+      <div class="title-container">
+        <h1>Hi! I'm Waku</h1>
+      </div>
+    </section>
+    <section id="second-block">
+      <p class="info-title">About me</p>
+      <div class="about-container">
+        <p class="info-text">
+          <b>Favorite</b>
+          <br />
+          <span class="font-small"> Dance </span>
+        </p>
+
+        <p class="info-text">
+          <b>Major</b>
+          <br />
+          <span class="font-small"> BioMarineScience </span>
+        </p>
+
+        <p class="info-text">
+          <b>Birthplace</b>
+          <br />
+          <span class="font-small"> Hakodate, Hokkaido </span>
+        </p>
+      </div>
+    </section>
+    <section id="third-block">
+      <div>
+        <h2 id="quiz-text"></h2>
+        <img id="quiz-image" />
+        <div>
+          <br />
+          <button id="choice-1"></button>
+          <br />
+          <button id="choice-2"></button>
+          <br />
+          <button id="choice-3"></button>
+        </div>
+        <div id="feedback"></div>
+      </div>
+
+      <script src="./main.js"></script>
+    </section>
   </body>
 </html>
